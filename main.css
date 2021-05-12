@@ -1,0 +1,32 @@
+.wrapper {
+  margin: 30px 30px;
+  font-family: "Open Sans";
+  color: grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 100%;
+}
+
+.wrapper-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+input {
+  margin: 10px;
+}
+
+.button-style {
+  width: 110px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: rgb(48, 217, 196);
+  color: white;
+  border: none;
+}
+
+.number {
+  width: 200px;
+}

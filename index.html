@@ -5,14 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./main.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
     <title>Prueba Intermedia. Módulo 2</title>
   </head>
   <body>
-    <main class="main js-page">
+    <main class="wrapper">
       <h1 class="js-title">Adivina el número</h1>
-      <form class="js-form" action="#">
-        <input type="number" class="js-imputHTML" />
-        <input class="js-button" type="button" value="Prueba" />
+      <form class="js-form wrapper-form" action="#">
+        <p>Introduce aquí tu número:</p>
+        <input type="number" class="js-imputHTML number" />
+        <input class="js-button button-style" type="button" value="Prueba" />
         <input
           type="text"
           id="clue"
